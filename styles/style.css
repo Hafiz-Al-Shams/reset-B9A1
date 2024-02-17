@@ -44,7 +44,7 @@
 
 /* main section starts */
 main>section {
-    margin: 150px;
+    margin: 130px;
 }
 
 .discount-title {
@@ -163,7 +163,7 @@ main>section {
     margin-right: 30px;
 }
 
-.all-img img:hover{
+.all-img img:hover {
     padding: 8px;
     background-color: aqua;
     border-radius: 10px;
@@ -202,11 +202,35 @@ main>section {
 
 /* footer styles */
 
-.footer{
+.footer {
     background: rgb(7, 2, 17);
     padding: 80px 150px;
 }
 
-.footer hr{
+.footer hr {
     border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* bonus section starts */
+.place-date {
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    padding: 100px 300px 170px;
+}
+
+.dpcs {
+    color: rgb(255, 0, 0);
+}
+
+/* holidays sale section image styles */
+
+.hs {
+    background-color: white;
+    width: 70vw;
+    height: 75vh;
+    margin: 0 auto;
+    background-image: url('../images/Rectangle\ 1.png'), url('../images/Rectangle\ 2.png'), url('../images/Group\ 44.png'), url('../images/Group\ 75.png');
+    background-repeat: no-repeat;
+    background-position: right top, bottom, top, left top;
+    background-size: 300px, 100%, 20%, 50%;
 }
